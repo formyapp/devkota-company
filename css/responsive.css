@@ -1,0 +1,293 @@
+/********************
+    media queries
+*********************/
+/* Extra small devices (phones, 600px and down) */
+
+@media (max-width: 600px) {
+
+    /********************
+       index page
+   *********************/
+       .carousel-caption h3,
+       .advice-box h3{
+           font-size: 22px;
+       }
+   
+       .carousel-caption p,
+       .services-head-text p {
+           font-size: 15px;
+       }
+       .btn-general {
+           padding: 8px 18px;
+           font-size: 14px;     
+       }
+   
+       .advice-box {
+           padding: 30px 0;
+       }
+   
+       #intro .intro-title h2,
+       .services-head-text h2 {
+           font-size: 25px;
+       }
+           
+       #intro .intro-descrip p {
+           font-size: 15px;
+           font-weight: 300;
+           line-height: 1.5;
+           text-align: justify;
+       }
+   
+       .serv-head-text p{
+           margin-top: -10px;
+       }
+   
+       /*** Counter **/
+       .counter-htxt h3 {
+           font-size: 20px;
+       }
+
+       .count-content h3 {
+           font-size: 22px;
+       }
+
+       .count-content p {
+           font-size: 15px;
+       }
+   /********************
+           about us 
+   *********************/
+   
+   .who-head-text  h2,
+   .nt-head-text h2,
+   .why-head-text h2,
+   .goals-head-text h2,
+   .people-head-text h2{
+       font-size: 25px;
+   }
+   
+   .who-sub-text p{
+       font-size: 15px;
+       text-indent: 50px;
+   }
+   
+   .who-sub-text p span:first-child
+   { 
+       font-size: 18px;
+   }
+   
+   .nt-text p,
+   .why-sub-text p,
+   .goals-text p,
+   .people-sub-text p{
+       font-size: 15px;
+   }
+   
+    
+    /********************
+        services
+   *********************/
+   
+       /** Tax & regulatory **/
+       
+       .tax h2,
+       .ts-head h2,
+       .tax-rp-head h2,
+       .inter-htxt h2,
+       .transfer-htext h2 {
+           font-size: 25px; 
+       }
+   
+       .tax p,
+       .ts-sub p,
+       .tax-rp-sub,
+       .inter-stext p,
+       .transfer-htext p {
+           font-size: 15px;
+       }
+   
+       /** Audit and assurance **/
+   
+       .audit-stxt h3,
+       .com-audit-htxt h3,
+       .int-htxt h3{
+           font-size: 22px;
+       }
+       .audit-stxt p,
+       .com-audit-stxt p,
+       .int-htxt p {
+           font-size: 15px;   
+       }
+   
+       /*** corporate **/
+   
+       .cor-htxt h3,
+       .adv-htxt h3,
+       .fin-htxt h3,
+       .train-htxt h3 {
+           font-size: 22px;   
+       }
+   
+       .cor-stxt p,
+       .adv-stxt p,
+       .fin-stxt p,
+       .train-stxt p {
+           font-size: 15px;   
+       }
+   
+       .train-pic img {
+           padding-bottom: 18px;
+       }
+   
+   /********************
+           team
+   *********************/
+   
+       .team-htxt h2 {
+           font-size: 25px;  
+       }
+   
+       .team-stxt p {
+           font-size: 15px;   
+       }
+   
+   /********************
+           contact
+   *********************/
+   
+      #con-brcmb .brcmb-text h2 {
+           font-size: 30px; 
+       }
+   
+       #con-brcmb .brcmb-text p { 
+           font-size: 25px;
+       }
+   
+       .con-boxes {
+           margin-top: 30px !important;
+       }
+   
+       .ofc-htxt h3,
+       .connect-htxt h3,
+       .brn-htxt h3 {
+           font-size: 22px;      
+       }
+   
+       .ofc-stxt p {
+           font-size: 15px;
+       }
+   
+   /********************
+           footer
+   *********************/
+   
+       footer .get-in-touch h3,
+       footer .useful-link h3,
+       footer .newsletter h3 {
+           padding-top: 15px;
+       
+       }
+       
+   }
+
+   /*************
+    media queries
+    *************/
+    @media (min-width: 768px) and (max-width: 991px) {
+
+        /*** index page ***/
+        .carousel-caption h3,
+        .advice-box h3{
+            font-size: 25px;
+        }
+ 
+        .btn-general {
+            padding: 8px 20px;
+            font-size: 14px;
+        }
+ 
+        .carousel-caption p,
+        .services-head-text p {
+            font-size: 17px;
+        }
+ 
+        .advice-box {
+         padding: 40px 0;
+          }
+ 
+         #intro .intro-title h2,
+        .services-head-text h2 {
+            font-size: 25px;
+        }
+ 
+        #intro .intro-title h2::after {
+         content: '';
+         position: absolute;
+         top: 60px;
+         left: 20px;
+         height: 3px;
+         width: 100px;
+         background: #13b779;
+         }
+ 
+         #intro .intro-descrip p {
+             font-weight: 300;
+             line-height: 1.5;
+             text-align: justify;
+             margin-top: -10px;
+              }
+     
+         .serv-head-text p {
+             margin-top: -10px;
+         }
+ 
+         .count-content p {
+             font-size: 18px;
+         }
+ 
+         .con-boxes {
+             margin-top: 20px !important;
+         }
+    }
+ 
+    /*************
+    media queries
+    *************/
+
+    @media (min-width: 992px) and (max-width: 1199px) {
+
+        .nt-head-text h2 {
+            margin-top: -80px;
+        }
+
+        .nt-text  {
+            margin-top: -35px;
+        }
+
+        .pep-img img {
+          margin-top: 60px;
+        }
+
+        .people-sub-text {
+            margin-top: -15px;
+        }
+
+        /** tax services **/
+        .inter-box-text h2 {
+            margin-top: -60px;
+        }
+
+        /** other services **/
+        .train-pic img {
+            margin-top: 30px;
+        }
+
+        /*** contact **/
+        .br-ofc-con {
+            box-shadow: 0 2px 10px 0 rgba(0,0,0,0.5);
+            padding: 8px;
+            background: #fff;
+            margin-top: 80px !important;
+        }
+    }
+
